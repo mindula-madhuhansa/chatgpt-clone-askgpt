@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .infoText {
+    @apply text-sm text-[#7c7d7d] mt-1;
+  }
+
+  .infoDiv {
+    @apply flex flex-col p-4 border-2 border-gray-400/30 rounded-2xl cursor-not-allowed;
+  }
+
+  .newChatBtn {
+    @apply flex justify-between items-center text-white mx-2 mt-1 hover:bg-[#202021] rounded-lg p-2 cursor-pointer;
+  }
+
+  .chatRow {
+    @apply flex items-center justify-between text-white mx-2 mt-1 hover:bg-[#202021] rounded-lg p-2 cursor-pointer;
+  }
+}
